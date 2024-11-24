@@ -67,7 +67,7 @@ const styles = {
 const SimpleChatInner = ({ itemId, update }) => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
-  const [isChatVisible, setIsChatVisible] = useState(true);
+  const [isChatVisible, setIsChatVisible] = useState(false);
   const [apiUrl, setApiUrl] = useState(
     'http://localhost:3000/api/chat/1/messages',
   );
