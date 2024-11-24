@@ -48,6 +48,10 @@
   border: 1px solid #c5e1a5;
   background-color: #c5e1a5;
 }
+#toolbar .chat {
+  border: 1px solid #e1bee7;
+  background-color: #e1bee7;
+}
 
 #toolbar .add {
   position: absolute;
