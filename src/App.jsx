@@ -10,12 +10,12 @@ function App() {
 
   if (page === 0) {
     return (
-      <>
+      <div className="app">
         <h1>AI&apos;m confused</h1>
         <div className="card">
-          <button onClick={() => setPage(1)}>Go to Dashboard</button>
+          <button onClick={() => setPage(1)}>New Dashboard</button>
         </div>
-      </>
+      </div>
     );
   }
 

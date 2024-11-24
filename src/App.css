@@ -8,6 +8,20 @@
   flex-direction: column;
 }
 
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app .card > button {
+  background-color: #00c853;
+  color: white;
+  font-weight: bold;
+}
+
 .board {
   position: relative;
   min-height: 3500px;
@@ -113,4 +127,15 @@
   flex-direction: row;
   gap: 8px;
   margin-bottom: 16px;
+}
+
+#item-actions button {
+  color: white;
+  background-color: #64b5f6;
+}
+
+#item-actions button:disabled {
+  color: white;
+  background-color: #64b5f6aa;
+  cursor: not-allowed;
 }
